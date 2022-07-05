@@ -1,4 +1,4 @@
-#!/bin/bash/
+#!/bin/bash
 
 # make script executable
 # chmod +x termux_extras.sh
