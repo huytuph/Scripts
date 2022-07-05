@@ -30,4 +30,3 @@ pkg install nodejs-lts -y
 complete
 
 $pkgup
-complete
