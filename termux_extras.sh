@@ -9,19 +9,23 @@
 pkgup = pkg update - y && pkg upgrade -y
 
 complete () {
-echo "
-complete
-"
-}
+    echo "
+    complete
+    "
+    }
 
 $pkgup
 complete
-$pkg install git -y
+
+pkg install git -y
 complete
-$pkg install vim -y
+
+pkg install vim -y
 complete
-$pkg install python -y
+
+pkg install python -y
 complete
+
 pkg install nodejs-lts -y
 complete
 
